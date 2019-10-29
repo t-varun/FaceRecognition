@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 face_cascade = cv2.CascadeClassifier('../FaceRecognition/haarcascade_frontalface_default.xml')
 cap = cv2.VideoCapture(0)
-rec = cv2.face.LBPHFaceRecognizer_create();
+rec = cv2.face.LBPHFaceRecognizer_create()
 rec.read("../FaceRecognition/Recognize/trainingdata.yml")
 id=0
 #https://docs.opencv.org/3.4.1/d0/de1/group__core.html
